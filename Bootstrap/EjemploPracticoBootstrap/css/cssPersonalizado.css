@@ -1,0 +1,235 @@
+/* 
+    Document   : cssPersonalizado
+    Created on : 13-may-2013, 14:34:34
+    Author     : Khrizenriquez
+    Description:
+        Esta hoja me sirve para modificar el login.
+*/
+body
+{
+    background: fixed url('../img/imgFondos/imgFondo5.jpg');
+    background-size: 100% 100%;
+    padding: 10em 2em 0em 2em;
+    text-align: center;
+}
+html
+{   
+    background: fixed url('../img/imgFondos/imgFondo5.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#artInformacion
+{
+    width: 50%;
+}
+#artFormularios
+{
+    padding: 1em;
+    width: 30%;
+}
+#artFormularios, #artInformacion
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+#btnIngresar
+{
+    width: 30%;
+}
+#btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+{
+    margin: 0.1em;
+}
+#formNuevoUsuario, #formUsuarioRegistrado
+{
+    background: rgba(230, 230, 230, 1);
+    padding: 0.5em;
+}
+#pwClaveUsuario
+{
+    width: 55%;
+}
+#txtNombreUsuario
+{
+    width: 87%;
+}
+#txtNuevoCorreoUsuario, #pwNuevaClaveUsuario, #txtNuevoNombreUsuario
+{
+    width: 87%;
+}
+
+@media (max-width:360px)
+{
+    body
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        background-size: 100% 100%;
+        padding: 1em 2em 0em 2em;
+        text-align: center;
+    }
+    html
+    {   
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        background-size: 100% 100%;
+        text-align: center;
+    }
+
+    #artInformacion
+    {
+        width: 50%;
+    }
+    #artFormularios
+    {
+        padding: 1em;
+        width: 30%;
+    }
+    #artFormularios, #artInformacion
+    {
+        display: inline;
+        vertical-align: middle;
+    }
+    #btnIngresar
+    {
+        width: 30%;
+    }
+    #btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+    {
+        margin: 0.1em;
+    }
+    #formNuevoUsuario, #formUsuarioRegistrado
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #pParrafo
+    {
+        display: none;
+    }
+    #pwClaveUsuario
+    {
+        width: 55%;
+    }
+    #txtNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoCorreoUsuario, #pwNuevaClaveUsuario, #txtNuevoNombreUsuario
+    {
+        width: 87%;
+    }
+}
+@media (max-width:768px) and (min-width:361px)
+{
+    body
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        background-size: 100% 100%;
+        padding: 1em 2em 0em 2em;
+        text-align: center;
+    }
+    html
+    {   
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        background-size: 100% 100%;
+        text-align: center;
+    }
+
+    #artInformacion
+    {
+        width: 50%;
+    }
+    #artFormularios
+    {
+        padding: 1em;
+        width: 30%;
+    }
+    #artFormularios, #artInformacion
+    {
+        display: inline;
+        vertical-align: middle;
+    }
+    #btnIngresar
+    {
+        width: 30%;
+    }
+    #btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+    {
+        margin: 0.1em;
+    }
+    #formNuevoUsuario, #formUsuarioRegistrado
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #pwClaveUsuario
+    {
+        width: 55%;
+    }
+    #txtNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoCorreoUsuario, #pwNuevaClaveUsuario, #txtNuevoNombreUsuario
+    {
+        margin: 0.2em;
+        width: 87%;
+    }
+}
+@media (max-width:980px) and (min-width:769px)
+{
+    body
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        background-size: 100% 100%;
+        padding: 1em 2em 0em 2em;
+        text-align: center;
+    }
+    html
+    {   
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        background-size: 100% 100%;
+        text-align: center;
+    }
+
+    #artInformacion
+    {
+        width: 50%;
+    }
+    #artFormularios
+    {
+        padding: 1em;
+        width: 30%;
+    }
+    #artFormularios, #artInformacion
+    {
+        display: inline;
+        vertical-align: middle;
+    }
+    #btnIngresar
+    {
+        width: 30%;
+    }
+    #btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+    {
+        margin: 0.1em;
+    }
+    #formNuevoUsuario, #formUsuarioRegistrado
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #pwClaveUsuario
+    {
+        width: 55%;
+    }
+    #txtNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoCorreoUsuario, #pwNuevaClaveUsuario, #txtNuevoNombreUsuario
+    {
+        margin: 0.2em;
+        width: 87%;
+    }
+}

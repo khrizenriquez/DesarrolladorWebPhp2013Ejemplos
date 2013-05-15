@@ -1,0 +1,333 @@
+/* 
+    Document   : estiloPersonalizado
+    Created on : 6/05/2013, 11:37:59 PM
+    Author     : Khriz
+    Description:
+                Archivo creado por khrizenriquez
+*/
+body
+{
+    background: fixed url('../img/imgFondos/imgFondo5.jpg') no-repeat;
+    padding: 10em 2em 0em 2em;/*paddin minimo de 40px cuando usamos una navegacion fija fixed*/
+    text-align: center;
+}
+html
+{
+    background: fixed url('../img/imgFondos/imgFondo5.jpg') no-repeat;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------*/
+#aOlvideClave
+{
+    color: #888;
+}
+#artInformacion
+{
+    width: 50%;
+}
+#artFormularios
+{
+    padding: 1em;
+    width: 30%;
+}
+#artInformacion, #artFormularios
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+#btnIngresar
+{
+    width: 30%;
+}
+#btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+{
+    margin: 0.10em;
+}
+#emNuevoCorreoUsuario
+{
+    width: 87%;
+}
+#formNuevoUsuario
+{
+    background: rgba(230, 230, 230, 1);
+    padding: 0.5em;
+}
+#formUsuarioRegistrado
+{
+    background: rgba(230, 230, 230, 1);
+    padding: 0.5em;
+}
+#pwClaveUsuario
+{
+    width: 55%;
+}
+#pwnNuevaClaveUsuario
+{
+    width: 87%;
+}
+#secContenedorDatos
+{
+    margin: 2em;
+    width: 80%;
+}
+#txtNombreUsuario
+{
+    width: 87%;
+}
+#txtNuevoNombreUsuario
+{
+    width: 87%;
+}
+#txtNuevoNombreUsuario, #emNuevoCorreoUsuario, #pwnNuevaClaveUsuario, #btnRegistrarme
+{
+    margin: 0.20em;
+}
+/*------------------------------------------------------------------------------*/
+@media (max-width: 360px)
+{
+    body
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        padding: 1em 2em 0em 2em;/*paddin minimo de 40px cuando usamos una navegacion fija fixed*/
+        text-align: center;
+    }
+    html
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg');
+        text-align: center;
+    }
+
+    /*------------------------------------------------------------------------------*/
+    #aOlvideClave
+    {
+        color: #888;
+    }
+    #artInformacion
+    {
+        width: 50%;
+    }
+    #artFormularios
+    {
+        padding: 1em;
+        width: 30%;
+    }
+    #artInformacion, #artFormularios
+    {
+        display: inline;
+        vertical-align: middle;
+    }
+    #btnIngresar
+    {
+        width: 30%;
+    }
+    #btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+    {
+        margin: 0.10em;
+    }
+    #emNuevoCorreoUsuario
+    {
+        width: 87%;
+    }
+    #formNuevoUsuario
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #formUsuarioRegistrado
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #pParrafo
+    {
+        display: none;
+    }
+    #pwClaveUsuario
+    {
+        width: 55%;
+    }
+    #pwnNuevaClaveUsuario
+    {
+        width: 87%;
+    }
+    #secContenedorDatos
+    {
+        margin: 2em;
+        width: 80%;
+    }
+    #txtNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoNombreUsuario, #emNuevoCorreoUsuario, #pwnNuevaClaveUsuario, #btnRegistrarme
+    {
+        margin: 0.20em;
+    }
+}
+@media (max-width: 768px) and (min-width: 361px)
+{
+    body
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg') no-repeat;
+        padding: 1em 2em 0em 2em;/*paddin minimo de 40px cuando usamos una navegacion fija fixed*/
+        text-align: center;
+    }
+    html
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg') no-repeat;
+        text-align: center;
+    }
+
+    /*------------------------------------------------------------------------------*/
+    #aOlvideClave
+    {
+        color: #888;
+    }
+    #artInformacion
+    {
+        width: 50%;
+    }
+    #artFormularios
+    {
+        padding: 1em;
+        width: 30%;
+    }
+    #artInformacion, #artFormularios
+    {
+        display: inline;
+        vertical-align: middle;
+    }
+    #btnIngresar
+    {
+        width: 30%;
+    }
+    #btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+    {
+        margin: 0.10em;
+    }
+    #emNuevoCorreoUsuario
+    {
+        width: 87%;
+    }
+    #formNuevoUsuario
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #formUsuarioRegistrado
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #pwClaveUsuario
+    {
+        width: 55%;
+    }
+    #pwnNuevaClaveUsuario
+    {
+        width: 87%;
+    }
+    #secContenedorDatos
+    {
+        margin: 2em;
+        width: 80%;
+    }
+    #txtNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoNombreUsuario, #emNuevoCorreoUsuario, #pwnNuevaClaveUsuario, #btnRegistrarme
+    {
+        margin: 0.20em;
+    }
+}
+@media (max-width: 980px) and (min-width: 769px)
+{
+    body
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg') no-repeat;
+        padding: 1em 2em 0em 2em;/*paddin minimo de 40px cuando usamos una navegacion fija fixed*/
+        text-align: center;
+    }
+    html
+    {
+        background: fixed url('../img/imgFondos/imgFondo5.jpg') no-repeat;
+        text-align: center;
+    }
+
+    /*------------------------------------------------------------------------------*/
+    #aOlvideClave
+    {
+        color: #888;
+    }
+    #artInformacion
+    {
+        width: 50%;
+    }
+    #artFormularios
+    {
+        padding: 1em;
+        width: 40%;
+    }
+    #artInformacion, #artFormularios
+    {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #btnIngresar
+    {
+        width: 30%;
+    }
+    #btnIngresar, #pwClaveUsuario, #txtNombreUsuario
+    {
+        margin: 0.10em;
+    }
+    #emNuevoCorreoUsuario
+    {
+        width: 87%;
+    }
+    #formNuevoUsuario
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #formUsuarioRegistrado
+    {
+        background: rgba(230, 230, 230, 1);
+        padding: 0.5em;
+    }
+    #pwClaveUsuario
+    {
+        width: 55%;
+    }
+    #pwnNuevaClaveUsuario
+    {
+        width: 87%;
+    }
+    #secContenedorDatos
+    {
+        margin: 2em;
+        width: 80%;
+    }
+    #txtNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoNombreUsuario
+    {
+        width: 87%;
+    }
+    #txtNuevoNombreUsuario, #emNuevoCorreoUsuario, #pwnNuevaClaveUsuario, #btnRegistrarme
+    {
+        margin: 0.20em;
+    }
+}
